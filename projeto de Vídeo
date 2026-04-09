@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>videos com HTML5</title>
+ <style>body{background-color:rgb(123, 196, 255)} ;</style>
+</head>
+<body>
+  <div>
+    <h1>Vídeos no meu proprio servidor</h1>
+    <!--  <h1>trabalhando com videos hospedado localmente</h1>
+    <p>crindo videos hospedados localmente</p>
+    <p>este video está hospedado no meu próprio servidor</p>
+    <video src="video-gatinho.mp4" width="500" controls></video>
+      <p>mas que gatinho fofoinho :) </p>--> <!--este é o jeito errado de mostrar um video-->
+      <video controls width="500" poster="">
+        <source src="video-gatinho.mp4"></video>
+        <!--caso temha mais tipos de videos como:ogg;m4v etc-->
+      </div>
+      <h1>exportando videos</h1>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/PlulyWs1kS4?si=Xg6RQzVQP1sxYG_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      
+  <div>
+    
+    "></video>
+  </div>
